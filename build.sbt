@@ -13,15 +13,15 @@ resolvers += "Maven" at "https://repo1.maven.org/maven2/"
 checksums in update := Nil
   
 libraryDependencies ++= Seq(
-  "com.typesafe.akka" %% "akka-http-core-experimental" % "1.0"  withSources(),
-  "com.typesafe.akka" %% "akka-http-spray-json-experimental" % "1.0"  withSources(),
-  "com.typesafe.akka" %% "akka-http-experimental" % "1.0"  withSources(),
-  "com.typesafe.akka" %% "akka-http-testkit-experimental" % "1.0" % "test"  withSources(),
+  "com.typesafe.akka" %% "akka-http-core-experimental" % "2.0.2"  withSources(),
+  "com.typesafe.akka" %% "akka-http-spray-json-experimental" % "2.0.2"  withSources(),
+  "com.typesafe.akka" %% "akka-http-experimental" % "2.0.2"  withSources(),
+  "com.typesafe.akka" %% "akka-http-testkit-experimental" % "2.0.2" % "test"  withSources(),
   "io.spray"           %% "spray-json"       % "1.3.2" withSources(),
   "io.swagger" % "swagger-scala-module_2.11" % "1.0.0" withSources(),
 //  "io.swagger" % "swagger-annotations" % "1.5.0" withSources(),
 //  "io.swagger" % "swagger-core" % "1.5.0" withSources(),
-  "io.swagger" % "swagger-jaxrs" % "1.5.0" withSources(),
+  "io.swagger" % "swagger-jaxrs" % "1.5.6" withSources(),
 //  "io.swagger" % "swagger-jersey2-jaxrs" % "1.5.0" withSources(),
 //  "io.swagger" % "swagger-parser" % "1.0.8" withSources(),
 //  "io.swagger" % "swagger-models" % "1.5.0" withSources(),
